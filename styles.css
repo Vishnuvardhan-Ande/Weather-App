@@ -18,3 +18,7 @@ body {
 .col{
     border: #4a90e2;
 }
+
+#weatherIcon:empty {
+    display: none;
+}
