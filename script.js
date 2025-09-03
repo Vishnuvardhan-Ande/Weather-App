@@ -1,6 +1,6 @@
 async function getWeather() {
     const city = document.getElementById('city').value.trim();
-    const apiKey = "9f0142f442425084ca4aef7e4f5c0555"; 
+    const apiKey = "YOUR_API_KEY"; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
     const loadingElement = document.getElementById('loading');
@@ -83,3 +83,4 @@ function changeBackground(weather) {
     body.style.backgroundPosition = "center";
     body.style.backgroundRepeat = "no-repeat";
 }
+
